@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+ 
+  /* transform: translateY(-50%); */
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+  z-index: 2; 
+}
+
+
+.next {
+  right: 10px; 
+}
+
+
